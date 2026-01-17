@@ -1,6 +1,7 @@
 import type { ChatRequest, ChatResponse } from '$lib/types';
 
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:5001';
+// Use empty string for local dev (proxy via Vite), or explicit URL for production
+const API_BASE_URL = import.meta.env.VITE_API_URL || '';
 
 class ApiClient {
 	private baseUrl: string;
