@@ -22,6 +22,6 @@
 	<meta name="description" content="AI-powered support assistant for TodoTicket" />
 </svelte:head>
 
-<div class="min-h-screen bg-gradient-to-br from-white via-indigo-50/30 to-blue-50/50">
+<div class="min-h-screen bg-white">
 	{@render children()}
 </div>
