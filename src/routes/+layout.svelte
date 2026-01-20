@@ -1,12 +1,19 @@
 <script lang="ts">
 	import '../app.css';
 	import { themeStore } from '$lib/stores/theme.svelte';
+	import { authStore } from '$lib/stores/auth.svelte';
+	import { onMount } from 'svelte';
 
 	let { children } = $props();
 
 	// Initialize theme on mount
 	$effect(() => {
 		themeStore.init();
+	});
+
+	// Initialize auth on mount
+	onMount(() => {
+		authStore.init();
 	});
 </script>
 
