@@ -31,7 +31,7 @@
 	}
 </script>
 
-<div class="border-t border-gray-200 bg-white/80 backdrop-blur-sm">
+<div class="border-t border-gray-100 bg-white">
 	<!-- Input form -->
 	<form onsubmit={handleSubmit} class="p-6 max-w-5xl mx-auto">
 		<div class="flex items-end gap-3">
@@ -44,13 +44,13 @@
 					placeholder="Ask a question..."
 					rows="1"
 					disabled={chatStore.isLoading}
-					class="w-full resize-none rounded-lg border border-gray-300
-						bg-white px-4 py-3
+					class="w-full resize-none rounded-lg border border-gray-200
+						bg-gray-50/50 px-4 py-3
 						text-sm text-gray-900
-						placeholder-gray-500
-						focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent
+						placeholder-gray-400
+						focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent focus:bg-white
 						disabled:opacity-50 disabled:cursor-not-allowed
-						transition-all duration-200 shadow-sm"
+						transition-all duration-200"
 				></textarea>
 			</div>
 
