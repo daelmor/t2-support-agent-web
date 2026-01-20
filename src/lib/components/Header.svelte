@@ -26,10 +26,10 @@
 	<div class="max-w-5xl mx-auto px-6 h-20 flex items-center justify-between">
 		<!-- Logo -->
 		<div class="flex items-center gap-4">
-			<img src={logo} alt="T2 Support Logo" class="h-10 w-10 object-contain" />
+			<img src={logo} alt="Event Flow Logo" class="h-10 w-10 object-contain" />
 			<div>
-				<h1 class="font-bold text-xl text-gray-800">T2 Support</h1>
-				<p class="text-sm text-gray-500">AI Assistant</p>
+				<h1 class="font-bold text-xl text-gray-800">Event Flow</h1>
+				<p class="text-sm text-gray-500">t2 support</p>
 			</div>
 		</div>
 
