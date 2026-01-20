@@ -16,7 +16,7 @@
 	});
 </script>
 
-<div class="flex flex-col h-screen max-w-4xl mx-auto">
+<div class="flex flex-col h-screen">
 	<Header />
 
 	<!-- Messages area -->
@@ -27,7 +27,7 @@
 		{#if chatStore.messages.length === 0}
 			<WelcomeScreen />
 		{:else}
-			<div class="p-4 space-y-4">
+			<div class="p-6 space-y-6 max-w-5xl mx-auto">
 				{#each chatStore.messages as message (message.id)}
 					<ChatMessage {message} />
 				{/each}
